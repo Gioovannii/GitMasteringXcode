@@ -28,13 +28,22 @@
                                     <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lOU-kS-2Nx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFm-Uc-RjW">
+                                <rect key="frame" x="95" y="237" width="224" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="42x-sz-gtz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E4X-qp-rrW"/>
+                            <constraint firstItem="MFm-Uc-RjW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="193" id="Ezt-gg-a16"/>
+                            <constraint firstItem="MFm-Uc-RjW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="Yhy-jG-pvq"/>
                             <constraint firstItem="42x-sz-gtz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v2t-jf-ZUP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MFm-Uc-RjW" secondAttribute="trailing" constant="95" id="vtP-7V-qJa"/>
                         </constraints>
                     </view>
                     <connections>
